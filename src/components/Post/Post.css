@@ -1,0 +1,61 @@
+.Component-container {
+    display: grid;
+    grid-template-rows: 16% 75% 5%;
+    justify-content: center;
+}
+.Post-header {
+    background-color: black;
+    color: white;
+    height: 110px;
+    width: 400px;
+    display: flex;
+}
+.Profile-img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.Follow-button {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+.Post-body {
+    background-color: black;
+}
+.Cat-img {
+    width: 400px;
+    height: 500px;
+}
+h1 {
+    color: rgb(203, 179, 226);
+    text-shadow: 2px 2px #000000;
+    font-size: 30px;
+    width: 400px;
+    position:absolute;
+    text-align: center;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer {
+    background-color: black;
+    width: 400px;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    
+}
+.Icons {
+    width: 30px;
+    height: 30px;
+}
+.Bookmark-img {
+ width: 30px;
+ height: 30px;
+}
+.Ellipsis-img {
+    width: 20px;
+    height: 20px;
+}
