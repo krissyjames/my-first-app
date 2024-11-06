@@ -1,26 +1,44 @@
 .Component-container {
     display: grid;
-    grid-template-rows: 16% 75% 5%;
+    grid-template-rows: 12% 82% 5%;
     justify-content: center;
 }
 .Post-header {
     background-color: black;
     color: white;
-    height: 110px;
+    height: 80px;
     width: 400px;
     display: flex;
 }
 .Profile-img {
-    height: 90px;
-    width: 90px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    margin: 5px;
+    margin: 10px 5px 5px 5px;
+}
+.Profile-data {
+    margin-top: 2px;
+   
+}
+.Location {
+    font-size: 14px;
+    margin-top: 0px;
+}
+.Username {
+font-size: 14px;
+margin-right: 60px;
+margin-bottom: 0px;
 }
 .Follow-button {
     width: 50px;
-    height: 30px;
+    height: 25px;
     text-align: center;
     font-size: 10px;
+    color: white;
+    background-color: #3b3b3b;
+    border: none;
+    border-radius: 10%;
+    margin: 25px 0px 0px 100px;
 }
 .Post-body {
     background-color: black;
@@ -34,28 +52,53 @@ h1 {
     text-shadow: 2px 2px #000000;
     font-size: 30px;
     width: 400px;
-    position:absolute;
-    text-align: center;
-    top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    margin-top: -200px;
 }
 footer {
     background-color: black;
     width: 400px;
+    height: 40px;
     display:grid;
     grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: start;
     
 }
 .Icons {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
+
 .Bookmark-img {
- width: 30px;
- height: 30px;
+ width: 40px;
+ height: 40px;
+ margin-left: 230px;
 }
 .Ellipsis-img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
+    margin: 30px 5px 20px 30px;
 }
+
+/* Responsive Designs */
+/* @media all and (max-width: 480px) {
+    footer {
+        width: 100vw;
+    }
+    .Post-header {
+        width: 100vw;
+   
+    }
+    
+    .Profile-data {
+        margin-top: 2px;
+       
+    }
+    .Location {
+        font-size: 14px;
+        margin-top: 0px;
+}
+} */
+
+/* @media all and (max-width: 768px) and (min-width: 481px) */
+
+/* @media all and (max-width: 1025px) and (min-width: 769px) */
